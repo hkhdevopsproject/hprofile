@@ -2,7 +2,7 @@ name: Hprofile Actions
 on: workflow_dispatch
 jobs:
   Testing:
-    run-on: ubunt-latest
+    run-on: ubuntu-latest
     steps:
       - name: Testing workflow
         run: echo "workflow-works!"
